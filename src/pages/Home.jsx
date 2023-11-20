@@ -50,7 +50,7 @@ function Home() {
             <CardFooter>
               <Button
                 variant="ghost"
-                colorScheme="purple"
+                colorScheme="red"
                 onClick={() => {
                   setAddCharacter(character.stories.items);
                 }}

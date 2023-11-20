@@ -7,6 +7,7 @@ import {
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import Home from './pages/Home';
+import Sidebar from './components/SideBar';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -18,11 +19,11 @@ root.render(
         <GridItem
           as="aside"
           colSpan={{ base: 6, lg: 2, xl: 1 }}
-          bg="purple.400"
+          bg="#e23636"
           minHeight={{ lg: '100vh' }}
           p={{ base: '20px', lg: '30px' }}
         >
-          {/* <Sidebar /> */}
+          <Sidebar />
         </GridItem>
         <GridItem
           as="main"
