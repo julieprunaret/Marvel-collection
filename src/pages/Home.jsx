@@ -17,7 +17,7 @@ import useFetch from '../utils/Hooks/useFetch';
 function Home() {
   const [addCharacter, setAddCharacter] = useState();
   const { data, isLoading, error } = useFetch(
-    `https://gateway.marvel.com/v1/public/characters?apikey=`
+    `https://gateway.marvel.com/v1/public/characters?`
   );
   console.log(data);
 
