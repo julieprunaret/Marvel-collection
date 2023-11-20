@@ -1,3 +1,6 @@
+!!! This project works with the Marvel API.
+Don't forget to create a .env file with your own private and public key (you can create there: https://developer.marvel.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
